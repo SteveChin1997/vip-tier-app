@@ -12,6 +12,10 @@ Assuming you've already installed on your machine: PHP (>= 8.0.0), [Laravel](htt
 # install dependencies
 composer install
 
+# create .env file and generate the application key
+cp .env.example .env
+php artisan key:generate
+
 # then start server
 php artisan serve
 ```
