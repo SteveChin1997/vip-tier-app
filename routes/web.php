@@ -19,4 +19,3 @@ Route::get('/', function () {
 });
 
 Route::post('/processVipTier', [ProcessVipTearController::class, 'processFromAjax']);
-Route::post('/processVipTier2', [ProcessVipTearController::class, 'processFromAjax']);
